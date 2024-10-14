@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJIO - Online Fashion Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="signup" href="signup.html">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>AJIO</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products, brands and more">
+            <button>Search</button>
+        </div>
+        <div class="user-options">
+            <a href="signup.html">Login</a>
+            
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </div>
+        
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Indie</a></li>
+            <li><a href="#">Home & Kitchen</a></li>
+            <li><a href="#">Brands</a></li>
+        </ul>
+    </nav>
+
+    <section class="banner">
+        <img src="internship\Ajio-Coupons-Deals-About.jpg" alt="Sale Banner">
+        
+    </section>
+
+    <section class="products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="internship\down(4).jpg" alt="Fashion kurties">
+                <h3>Fashion kurties</h3>
+                <p>₹999-₹2500</p>
+                
+                <button onclick="addToCart('Fashion kurties', 999)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="internship\down(7).jpg" alt="Festive wears">
+                <h3>Festive wears</h3>
+                <p>₹1000-₹8999/<p>
+                    <button onclick="addToCart('Festive wears', 1999)">Add to Cart</button>
+            </div>
+           
+            <div class="product-card">
+                <img src="down(5).jpg" alt="sarrees">
+                <h3>sarrees</h3>
+                <p>₹799-₹6000/<p>
+                    <button onclick="addToCart('sarees', 899)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="internship\down(6).jpg" alt="trousers">
+                <h3>trousers</h3>
+                <p>₹199-₹600/<p>
+                
+                <button onclick="addToCart('Trousers', 769)">Add to Cart</button>
+                </div>
+
+             
+            </div>
+            </section>
+            
+    <footer>
+        <p>&copy; 2024 AJIO. All rights reserved.</p>
+    </footer>
+</body>
+</html>
